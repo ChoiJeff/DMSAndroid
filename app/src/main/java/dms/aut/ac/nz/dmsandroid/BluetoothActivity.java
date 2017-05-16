@@ -25,6 +25,7 @@ public class BluetoothActivity extends AppCompatActivity {
         setContentView(R.layout.activity_bluetooth);
 
         pairedDevicesList = (ListView)findViewById(R.id.pairedDevicesList);
+
     }
 
     public void checkBluetoothSupport(View v)
