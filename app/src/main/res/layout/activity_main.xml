@@ -10,8 +10,21 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="dms.aut.ac.nz.dmsandroid.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:text="Message"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/buttonForMessage"
+        android:onClick="buttonToGoToMessage" />
+
+    <Button
+        android:text="Bluetooth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonForMessage"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/buttonForBluetooth"
+        android:onClick="buttonToGoToBluetooth" />
 </RelativeLayout>
